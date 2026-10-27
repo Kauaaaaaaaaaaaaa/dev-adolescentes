@@ -9,24 +9,17 @@
 </head>
 <body>
 
-    <h3>Criando uma tabela</h3>
-    <table border="1" cellpadding="10" cellspacing="5">
-        <!--Border é a borda, Cellpadding é o espaço dentro da célula
-        cellspacing é o espaço entre as células-->
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Sobrenome</th>
-                <th>Telefone</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Pessoa1</td>
-                <td>Sobrenome1</td>
-                <td>51 5563474557</td>
-            </tr>
-        </tbody>
-       </table>     
+    <h3>Formulário</h3>
+    <form action="">
+        <legend>Dados Pessoais</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required placeholder="Digite seu nome...">
+    </form>
+    <!--isto é como se fosse o primeiro exercicio de back end "required"é o codigo para pedir/requirir o nome na caixa-->
+    <label for="Sobrenome">Sobrenome:</label>
+    <input type="Text"id="nome"required placeholder="Digite seu sobrenome...">
+    <br><br>
+    <label for="Idade">Idade</label>
+    <input type="Number"id="Idade"required>
 </body>
 </html>
